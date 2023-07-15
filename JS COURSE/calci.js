@@ -1,0 +1,5 @@
+const billInput = document.getElementById('total')
+const tip = document.getElementById('total-bill')
+const numberOfPeople = document.getElementById('one')
+const bill = document.getElementById('zero')
+console.log(billInput.value)

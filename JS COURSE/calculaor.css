@@ -1,0 +1,188 @@
+.number {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.bill {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px 0px 60px;
+}
+
+body {
+    background-color: #b3d6eb;
+
+}
+
+.border {
+    height: 500px;
+    background-color: #4dc5e0;
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-right: 35%;
+    opacity: 0.8;
+    border-radius: 25px;
+    position: relative;
+}
+
+.total {
+    width: 75%;
+    height: 36px;
+    margin-left: 60px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: large;
+    border-style: none;
+    border-color: white;
+    outline: none;
+    border-style: solid;
+    position: relative;
+
+}
+
+.total-bill {
+    width: 75%;
+    height: 36px;
+    margin-left: 60px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: large;
+    border-style: none;
+    border-color: white;
+    outline: none;
+    border-style: solid;
+    position: relative;
+}
+
+.click {
+    margin-left: 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.per {
+    display: inline-block;
+}
+
+.person {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    display: inline;
+}
+
+.total::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+.bill-paper {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px 0px 60px;
+}
+
+.sub {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    margin-left: 4px;
+}
+
+.add {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    margin-left: 60px;
+}
+
+
+
+.add:active {
+    background-color: #b3d6eb;
+    transition: 0.15sec;
+}
+
+.sub:active {
+    background-color: #b3d6eb;
+    transition: 0.15sec;
+}
+
+.one {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.amount {
+    align-items: center;
+}
+
+.per-person {
+    display: inline-block;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    margin-left: 200px;
+    position: absolute;
+    bottom: 195px;
+    font-size: 20px;
+    right: 60px;
+}
+
+.dollar {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    right: 180px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.zero {
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 140px;
+    right: 115px;
+}
+
+.din {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dollars {
+    position: relative;
+    left: -450px;
+    background-color: white;
+    width: 5%;
+    height: 2.6rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
